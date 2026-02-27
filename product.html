@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details | Asili Creations</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .product-detail-container {
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            gap: 60px;
+            padding: 60px 0;
+        }
+        .main-image-wrapper {
+            background: #f8f8f8;
+            border-radius: 15px;
+            overflow: hidden;
+            aspect-ratio: 1/1;
+        }
+        .main-image-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        .product-info-sticky {
+            position: sticky;
+            top: 120px;
+        }
+        .product-badge {
+            display: inline-block;
+            background: #f0f0f0;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        .product-title {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            line-height: 1.2;
+        }
+        .product-price-large {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 30px;
+        }
+        .product-meta {
+            border-top: 1px solid var(--border-color);
+            padding-top: 30px;
+            margin-top: 30px;
+        }
+        .meta-item {
+            margin-bottom: 15px;
+        }
+        .meta-item strong {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .buy-box {
+            background: #fff;
+            padding: 30px;
+            border: 1px solid var(--border-color);
+            border-radius: 15px;
+            margin-top: 40px;
+        }
+        @media (max-width: 992px) {
+            .product-detail-container {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container nav-flex">
+            <a href="index.html" class="logo">Asili Creations</a>
+            <div class="nav-actions">
+                <a href="index.html">Back to Collection</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="product-detail-container" id="product-content">
+            <!-- Content populated by JavaScript -->
+            <div class="main-image-wrapper">
+                <img id="main-img" src="" alt="Product Image">
+            </div>
+            <div class="product-info-sticky">
+                <div class="product-badge">Handmade in Kenya</div>
+                <h1 id="p-title" class="product-title">Product Name</h1>
+                <p id="p-price" class="product-price-large">KES 0.00</p>
+                
+                <div class="product-description" id="p-desc">
+                    Detailed description of the product and its cultural significance.
+                </div>
+
+                <div class="product-meta">
+                    <div class="meta-item">
+                        <strong>Materials</strong>
+                        <p id="p-materials">Authentic glass beads, natural sisal fiber, durable thread.</p>
+                    </div>
+                    <div class="meta-item">
+                        <strong>Dimensions</strong>
+                        <p id="p-dimensions">Approx. 30cm Diameter</p>
+                    </div>
+                </div>
+
+                <div class="buy-box">
+                    <p style="margin-bottom: 15px; font-size: 0.9rem; color: var(--text-muted);">Interested in this item? Order directly via WhatsApp.</p>
+                    <a id="whatsapp-btn" href="#" class="btn btn-whatsapp" style="width: 100%; text-align: center; font-size: 1.1rem; padding: 15px;">
+                        <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer style="margin-top: 100px; padding: 60px 0; background: var(--bg-light); border-top: 1px solid var(--border-color);">
+        <div class="container" style="text-align: center;">
+            <div class="logo" style="margin-bottom: 20px;">Asili Creations</div>
+            <p>&copy; 2024 Asili Creations. Made with pride in Kenya.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple data object for products
+        const products = {
+            '1': {
+                title: 'Vibrant Rainbow Spiral Circular Beaded Mat',
+                price: 'KES 3,800',
+                image: 'assets/rainbow_spiral.jpg',
+                description: 'A stunning centerpiece featuring a tight spiral of vibrant multi-colored glass beads. Each layer represents the diverse spirit of Kenyan heritage.',
+                materials: 'Multi-colored glass beads, leather-backed reinforcement, high-strength nylon thread.',
+                dimensions: '32cm Diameter'
+            },
+            '2': {
+                title: 'Artisan Feather Motif Mat - Earth Tones',
+                price: 'KES 4,200',
+                image: 'assets/feather_brown.jpg',
+                description: 'Elegant earth-toned mat featuring a sophisticated feather motif. Perfect for adding a natural, organic feel to your table setting.',
+                materials: 'Amber, brown, and cream glass beads on sisal backing.',
+                dimensions: '30cm Diameter'
+            },
+            '3': {
+                title: 'Artisan Rainbow Feather Beaded Wall Decor',
+                price: 'KES 4,500',
+                image: 'assets/feather_rainbow.jpg',
+                description: 'A masterpiece of beadwork, this piece uses a rainbow of colors in a flowing feather pattern. Can be used as a premium placemat or mounted as wall art.',
+                materials: 'Premium vibrant glass beads, hand-braided border, fabric backing.',
+                dimensions: '35cm Diameter'
+            },
+            '4': {
+                title: 'Classic Spiral Hand-Beaded Mat (Black & Gold)',
+                price: 'KES 3,200',
+                image: 'assets/white_gold_spiral.jpg',
+                description: 'A timeless design featuring a clean monochrome spiral with subtle gold highlights. Perfect for sophisticated and modern home decor.',
+                materials: 'Black, white, and metallic gold beads.',
+                dimensions: '28cm Diameter'
+            },
+            '5': {
+                title: 'Midnight Black Hand-Beaded Premium Mat',
+                price: 'KES 3,500',
+                image: 'assets/midnight_black.jpg',
+                description: 'A luxurious, jet-black beaded mat with a subtle shimmer. Its minimalist design makes it a versatile piece for high-end table settings and modern interiors.',
+                materials: 'High-quality black glass beads, premium leather backing.',
+                dimensions: '30cm Diameter'
+            },
+            '6': {
+                title: 'Deep Ocean Blue Spiral Beaded Mat',
+                price: 'KES 3,800',
+                image: 'assets/ocean_blue_spiral.jpg',
+                description: 'A calming spiral of deep blue and teal beads, evocative of the Indian Ocean. Hand-strung with precision for a smooth, high-end finish.',
+                materials: 'Multi-toned blue glass beads, durable fiber backing.',
+                dimensions: '32cm Diameter'
+            },
+            '7': {
+                title: 'Large Spiral Woven Tray - Emerald Green',
+                price: 'KES 5,500',
+                image: 'assets/green_woven_tray.jpg',
+                description: 'A vibrantly colored woven tray featuring a mesmerizing spiral pattern. Perfect as a wall statement piece or a unique decorative tray.',
+                materials: 'Naturally dyed sisal fibers, expert hand-weaving.',
+                dimensions: '45cm Diameter'
+            },
+            '8': {
+                title: 'Minimalist Black & White Target Beaded Set',
+                price: 'KES 4,000',
+                image: 'assets/bw_target_mats.jpg',
+                description: 'A clean, modern take on traditional beadwork. These circular mats feature bold black and white rings, creating a striking visual contrast.',
+                materials: 'High-contrast glass beads, leather-reinforced edges.',
+                dimensions: '30cm Diameter'
+            },
+            '9': {
+                title: 'Intricate Electric Blue & Gold Beaded Spiral',
+                price: 'KES 4,200',
+                image: 'assets/electric_blue_spiral.jpg',
+                description: 'A masterpiece of intricate beadwork, combining electric blue tones with subtle gold highlights for a truly regal appearance.',
+                materials: 'Premium glass beads, hand-braided border reinforcement.',
+                dimensions: '32cm Diameter'
+            },
+            '10': {
+                title: 'Classic Brown Border Beaded Centerpiece',
+                price: 'KES 3,600',
+                image: 'assets/brown_border_spiral.jpg',
+                description: 'A sophisticated centerpiece with a rich brown leather-like border and a clean, minimal beaded center. Blends traditional and modern styles seamlessly.',
+                materials: 'Natural earth-tone beads, thick braided border.',
+                dimensions: '30cm Diameter'
+            },
+            '11': {
+                title: 'Luxury Gold & Bronze Stacked Beaded Set',
+                price: 'KES 12,500',
+                image: 'assets/gold_luxury_stack.jpg',
+                description: 'A premium set of stacked beaded mats, featuring an opulent blend of gold, bronze, and cream beads. Designed for those who appreciate true luxury and heritage.',
+                materials: 'Metallic-coated glass beads, premium leather borders, decorative hand-braiding.',
+                dimensions: 'Set of 4 (30cm each)'
+            },
+            '12': {
+                title: 'Prism Speckled Artisan Beaded Mat',
+                price: 'KES 3,900',
+                image: 'assets/speckled_rainbow.jpg',
+                description: 'A playful yet sophisticated design featuring a constellation of multi-colored "speckled" beads. Each mat is unique due to the hand-mixed bead application.',
+                materials: 'Mixed vibrant glass beads, white fiber base.',
+                dimensions: '30cm Diameter'
+            },
+            '13': {
+                title: 'Artisan Gold Mosaic Hand-Beaded Mat',
+                price: 'KES 4,500',
+                image: 'assets/gold_mosaic_set.jpg',
+                description: 'A detailed mosaic pattern that captures the light beautifully. The gold and amber tones create a warm, inviting atmosphere for any dining experience.',
+                materials: 'Premium gold-line beads, amber glass, durable underlay.',
+                dimensions: '32cm Diameter'
+            }
+        };
+
+        // Get product ID from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const productId = urlParams.get('id');
+
+        if (productId && products[productId]) {
+            const p = products[productId];
+            document.getElementById('p-title').innerText = p.title;
+            document.getElementById('p-price').innerText = p.price;
+            document.getElementById('main-img').src = p.image;
+            document.getElementById('p-desc').innerText = p.description;
+            document.getElementById('p-materials').innerText = p.materials;
+            document.getElementById('p-dimensions').innerText = p.dimensions;
+
+            // Update WhatsApp link
+            const phone = "254707546201";
+            const message = `Hello, I am interested in the ${p.title} from Asili Creations.`;
+            document.getElementById('whatsapp-btn').href = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+            
+            document.title = `${p.title} | Asili Creations`;
+        } else {
+            document.getElementById('product-content').innerHTML = "<h1>Product not found</h1><p><a href='index.html'>Return to collection</a></p>";
+        }
+    </script>
+</body>
+</html>
