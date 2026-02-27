@@ -394,7 +394,139 @@ header {
         gap: 20px;
     }
 
-    .hero-minimal h1 {
-        font-size: 2.5rem;
+    .hero-premium h1 {
+        font-size: 2.2rem;
     }
+}
+
+/* Premium Promo Sections (Custom and Sets) */
+.promo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 40px;
+    margin: 60px 0;
+}
+
+.promo-card {
+    position: relative;
+    padding: 60px 40px;
+    border-radius: 24px;
+    overflow: hidden;
+    color: white;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 350px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.promo-card.terracotta {
+    background: linear-gradient(135deg, #A85A3F 0%, #7D4230 100%);
+}
+
+.promo-card.sage {
+    background: linear-gradient(135deg, #8A9A8A 0%, #5E6D5E 100%);
+}
+
+.promo-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.promo-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.promo-card p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    opacity: 0.9;
+    margin-bottom: 30px;
+}
+
+.promo-card i {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 10rem;
+    opacity: 0.1;
+    transform: rotate(-15deg);
+    pointer-events: none;
+}
+
+.promo-btn {
+    align-self: flex-start;
+    padding: 12px 30px;
+    background: white;
+    color: var(--text-main);
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.promo-btn:hover {
+    background: var(--bg-light);
+    transform: translateX(5px);
+}
+
+@media (max-width: 768px) {
+    .promo-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .promo-card {
+        padding: 40px 30px;
+        min-height: auto;
+    }
+}
+
+/* Premium Enhancements */
+.sticky-wa {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: #25D366;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.sticky-wa:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.lightbox-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(5px);
+    z-index: 2000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: zoom-out;
+}
+
+.lightbox-img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
