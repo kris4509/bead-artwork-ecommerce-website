@@ -42,45 +42,31 @@
         </nav>
     </div>
 
-    <div class="hero-minimal" style="background-image: linear-gradient(rgba(248,235,230,0.8), rgba(248,235,230,0.8)), url('assets/lifestyle_beads.jpg'); background-size: cover; background-position: center;">
-        <div class="container">
-            <h1>Crafted from our roots.</h1>
-            <p style="font-size: 1.2rem; max-width: 600px; margin: 0 auto 30px;">Handmade beaded table mats designed to elevate your dining and living spaces.</p>
-            <div style="display: flex; gap: 15px; justify-content: center;">
-                <a href="#collection" class="btn" style="background: var(--text-main); color: white;">View Collection</a>
-                <a href="https://wa.me/254707546201" class="btn" style="background: white; border: 1px solid var(--border-color);">Order on WhatsApp</a>
+    <!-- Premium Hero Section -->
+    <section class="hero-premium">
+        <img src="assets/rainbow_spiral.jpg" alt="Beadwork Banner" class="hero-video-bg">
+        <div class="hero-content">
+            <h1>Elevate Your Space with Asili Creations</h1>
+            <p>Authentic, hand-crafted beaded table mats that blend Kenyan heritage with modern elegance.</p>
+            <div class="hero-btns">
+                <a href="#featured" class="btn btn-primary">Featured Designs</a>
+                <a href="#collection" class="btn btn-secondary">Shop All</a>
             </div>
         </div>
-    </div>
+    </section>
 
     <div class="pattern-divider"></div>
 
     <main class="container">
         <!-- Categories Section -->
-        <section class="categories-discovery">
-            <div class="cat-item">
-                <div class="cat-image">
-                    <img src="assets/rainbow_spiral.jpg" alt="Beaded Mats">
-                </div>
-                <span>Beaded Mats</span>
+        <!-- Featured Section -->
+        <section id="featured">
+            <div class="section-header">
+                <h2>Featured Masterpieces</h2>
+                <p>Curated best-sellers that capture the heart of our craft.</p>
             </div>
-            <div class="cat-item">
-                <div class="cat-image">
-                    <img src="assets/feather_rainbow.jpg" alt="Wall Decor">
-                </div>
-                <span>Wall Decor</span>
-            </div>
-            <div class="cat-item">
-                <div class="cat-image">
-                    <img src="assets/feather_brown.jpg" alt="Tableware">
-                </div>
-                <span>Tableware</span>
-            </div>
-            <div class="cat-item">
-                <div class="cat-image">
-                    <img src="assets/white_gold_spiral.jpg" alt="Monochrome">
-                </div>
-                <span>Classic</span>
+            <div id="featured-grid" class="etsy-grid">
+                <!-- Featured products populated by JS -->
             </div>
         </section>
 
@@ -91,262 +77,8 @@
                 <a href="#" style="font-weight: 600; text-decoration: underline;">See all</a>
             </div>
 
-            <div class="etsy-grid">
-                <!-- Product 1: Rainbow Spiral -->
-                <div class="etsy-card">
-                    <a href="product.html?id=1" style="text-decoration: none; color: inherit;">
-                        <div class="whatsapp-badge">Popular</div>
-                        <div class="card-img-wrapper">
-                            <img src="assets/rainbow_spiral.jpg" alt="Rainbow Spiral Beaded Mat">
-                        </div>
-                        <div class="card-info">
-                            <h3>Vibrant Rainbow Spiral Circular Beaded Mat</h3>
-                            <p class="card-price">KES 950</p>
-                            <span class="card-btn">View Details</span>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Product 2: Feather Pattern Brown -->
-                <div class="etsy-card">
-                    <a href="product.html?id=2" style="text-decoration: none; color: inherit;">
-                        <div class="card-img-wrapper">
-                            <img src="assets/feather_brown.jpg" alt="Feather Pattern Beaded Mat - Brown">
-                        </div>
-                        <div class="card-info">
-                            <h3>Artisan Feather Motif Mat - Earth Tones</h3>
-                            <p class="card-price">KES 1,000</p>
-                            <span class="card-btn">View Details</span>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Product 3: Feather Pattern Rainbow -->
-                <div class="etsy-card">
-                    <a href="product.html?id=3" style="text-decoration: none; color: inherit;">
-                        <div class="card-img-wrapper">
-                            <img src="assets/feather_rainbow.jpg" alt="Rainbow Feather Beaded Mat">
-                        </div>
-                        <div class="card-info">
-                            <h3>Artisan Rainbow Feather Beaded Wall Decor</h3>
-                            <p class="card-price">KES 1,000</p>
-                            <span class="card-btn">View Details</span>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Product 4: Monochrome Spiral -->
-                <div class="etsy-card">
-                    <a href="product.html?id=4" style="text-decoration: none; color: inherit;">
-                        <div class="card-img-wrapper">
-                            <img src="assets/white_gold_spiral.jpg" alt="Monochrome Spiral Beaded Mat">
-                        </div>
-                        <div class="card-info">
-                            <h3>Classic Spiral Hand-Beaded Mat (Black & Gold)</h3>
-                            <p class="card-price">KES 900</p>
-                            <span class="card-btn">View Details</span>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Product 5: Midnight Black -->
-                <div class="etsy-card">
-                    <a href="product.html?id=5" style="text-decoration: none; color: inherit;">
-                        <div class="whatsapp-badge">Premium</div>
-                        <div class="card-img-wrapper">
-                            <img src="assets/midnight_black.jpg" alt="Midnight Black Beaded Mat">
-                        </div>
-                        <div class="card-info">
-                            <h3>Midnight Black Hand-Beaded Premium Mat</h3>
-                            <p class="card-price">KES 1,000</p>
-                            <span class="card-btn">View Details</span>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Product 6: Ocean Blue Spiral -->
-                <div class="etsy-card">
-                    <a href="product.html?id=6" style="text-decoration: none; color: inherit;">
-                        <div class="card-img-wrapper">
-                            <img src="assets/ocean_blue_spiral.jpg" alt="Ocean Blue Spiral Mat">
-                        </div>
-                        <div class="card-info">
-                            <h3>Deep Ocean Blue Spiral Beaded Mat</h3>
-                            <p class="card-price">KES 950</p>
-                            <span class="card-btn">View Details</span>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Product 7: Green Woven Tray -->
-                <div class="etsy-card">
-                    <a href="product.html?id=7" style="text-decoration: none; color: inherit;">
-                        <div class="card-img-wrapper">
-                            <img src="assets/green_woven_tray.jpg" alt="Green Woven Tray">
-                        </div>
-                        <div class="card-info">
-                            <h3>Large Spiral Woven Tray - Emerald Green</h3>
-                            <p class="card-price">KES 1,200</p>
-                            <span class="card-btn">View Details</span>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Product 8: Monochrome Target -->
-                <div class="etsy-card">
-                    <a href="product.html?id=8" style="text-decoration: none; color: inherit;">
-                        <div class="card-img-wrapper">
-                            <img src="assets/bw_target_mats.jpg" alt="B&W Target Mats">
-                        </div>
-                        <div class="card-info">
-                            <h3>Minimalist Black & White Target Beaded Set</h3>
-                            <p class="card-price">KES 950</p>
-                            <span class="card-btn">View Details</span>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Product 9: Electric Blue Spiral -->
-                <div class="etsy-card">
-                    <a href="product.html?id=9" style="text-decoration: none; color: inherit;">
-                        <div class="card-img-wrapper">
-                            <img src="assets/electric_blue_spiral.jpg" alt="Electric Blue Spiral">
-                        </div>
-                        <div class="card-info">
-                            <h3>Intricate Electric Blue & Gold Beaded Spiral</h3>
-                            <p class="card-price">KES 1,100</p>
-                            <span class="card-btn">View Details</span>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Product 10: Brown Border Spiral -->
-                <div class="etsy-card">
-                    <a href="product.html?id=10" style="text-decoration: none; color: inherit;">
-                        <div class="card-img-wrapper">
-                            <img src="assets/brown_border_spiral.jpg" alt="Brown Border Spiral Mat">
-                        </div>
-                        <div class="card-info">
-                            <h3>Classic Brown Border Beaded Centerpiece</h3>
-                            <p class="card-price">KES 950</p>
-                            <span class="card-btn">View Details</span>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Product 11: Gold Luxury Stack (Set) -->
-                <div class="etsy-card">
-                    <a href="product.html?id=11" style="text-decoration: none; color: inherit;">
-                        <div class="whatsapp-badge">Best Seller</div>
-                        <div class="card-img-wrapper">
-                            <img src="assets/gold_luxury_stack.jpg" alt="Gold Luxury Beaded Set">
-                        </div>
-                        <div class="card-info">
-                            <h3>Luxury Gold & Bronze Stacked Beaded Set (Full Set)</h3>
-                            <p class="card-price">KES 3,500</p>
-                            <span class="card-btn">View Details</span>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Product 12: Prism Speckled -->
-                <div class="etsy-card">
-                    <a href="product.html?id=12" style="text-decoration: none; color: inherit;">
-                        <div class="card-img-wrapper">
-                            <img src="assets/speckled_rainbow.jpg" alt="Speckled Rainbow Mat">
-                        </div>
-                        <div class="card-info">
-                            <h3>Prism Speckled Artisan Beaded Mat</h3>
-                            <p class="card-price">KES 950</p>
-                            <span class="card-btn">View Details</span>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Product 13: Gold Mosaic -->
-                <div class="etsy-card">
-                    <a href="product.html?id=13" style="text-decoration: none; color: inherit;">
-                        <div class="card-img-wrapper">
-                            <img src="assets/gold_mosaic_set.jpg" alt="Gold Mosaic Mat">
-                        </div>
-                        <div class="card-info">
-                            <h3>Artisan Gold Mosaic Hand-Beaded Mat</h3>
-                            <p class="card-price">KES 1,000</p>
-                            <span class="card-btn">View Details</span>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Product 14: Sunset Orange -->
-                <div class="etsy-card">
-                    <a href="product.html?id=14" style="text-decoration: none; color: inherit;">
-                        <div class="card-img-wrapper">
-                            <img src="assets/sunset_orange_spiral.jpg" alt="Sunset Orange Spiral Mat">
-                        </div>
-                        <div class="card-info">
-                            <h3>Sunset Orange Spiral Artisan Mat</h3>
-                            <p class="card-price">KES 950</p>
-                            <span class="card-btn">View Details</span>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Product 15: Teal Harmony -->
-                <div class="etsy-card">
-                    <a href="product.html?id=15" style="text-decoration: none; color: inherit;">
-                        <div class="card-img-wrapper">
-                            <img src="assets/teal_harmony_mat.jpg" alt="Teal Harmony Mat">
-                        </div>
-                        <div class="card-info">
-                            <h3>Teal Harmony Hand-Beaded Mat</h3>
-                            <p class="card-price">KES 1,000</p>
-                            <span class="card-btn">View Details</span>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Product 16: Tribal Bronze -->
-                <div class="etsy-card">
-                    <a href="product.html?id=16" style="text-decoration: none; color: inherit;">
-                        <div class="whatsapp-badge">New Arrival</div>
-                        <div class="card-img-wrapper">
-                            <img src="assets/tribal_bronze_pattern.jpg" alt="Tribal Bronze Pattern mat">
-                        </div>
-                        <div class="card-info">
-                            <h3>Tribal Bronze Pattern Centerpiece</h3>
-                            <p class="card-price">KES 1,100</p>
-                            <span class="card-btn">View Details</span>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Product 17: Royal Purple -->
-                <div class="etsy-card">
-                    <a href="product.html?id=17" style="text-decoration: none; color: inherit;">
-                        <div class="card-img-wrapper">
-                            <img src="assets/royal_purple_spiral.jpg" alt="Royal Purple Spiral">
-                        </div>
-                        <div class="card-info">
-                            <h3>Royal Purple Spiral Premium Mat</h3>
-                            <p class="card-price">KES 1,000</p>
-                            <span class="card-btn">View Details</span>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Product 18: Emerald Forest -->
-                <div class="etsy-card">
-                    <a href="product.html?id=18" style="text-decoration: none; color: inherit;">
-                        <div class="card-img-wrapper">
-                            <img src="assets/emerald_forest_mat.jpg" alt="Emerald Forest Mat">
-                        </div>
-                        <div class="card-info">
-                            <h3>Emerald Forest Artisan Beaded Mat</h3>
-                            <p class="card-price">KES 950</p>
-                            <span class="card-btn">View Details</span>
-                        </div>
-                    </a>
-                </div>
+            <div id="product-grid" class="etsy-grid">
+                <!-- Data populated by JavaScript -->
             </div>
             <div style="text-align: center; margin-top: 40px;">
                 <p style="color: var(--text-muted);">Discover and order from our full collection of 18+ unique designs.</p>
@@ -466,6 +198,17 @@
         <i class="fas fa-arrow-up"></i>
     </button>
 
+    <!-- Sticky WhatsApp (Mobile Home) -->
+    <a href="https://wa.me/254707546201" class="sticky-wa" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Lightbox Overlay -->
+    <div id="lightbox" class="lightbox-overlay">
+        <img src="" alt="View" class="lightbox-img" id="lightbox-img">
+    </div>
+
+    <script src="js/products.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
