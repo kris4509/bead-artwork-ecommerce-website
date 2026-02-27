@@ -13,26 +13,47 @@
 <body>
     <header>
         <div class="container nav-flex">
+            <button class="menu-toggle" id="menu-open">
+                <i class="fas fa-bars"></i>
+            </button>
             <div class="logo">Asili Creations</div>
             
             <div class="search-bar">
-                <input type="text" placeholder="Search for unique baskets...">
+                <input type="text" placeholder="Search for unique table mats...">
                 <i class="fas fa-search search-icon"></i>
             </div>
 
             <div class="nav-actions">
-                <a href="#about"><i class="far fa-heart"></i></a>
+                <a href="#about" class="hide-mobile"><i class="far fa-heart"></i></a>
                 <a href="https://wa.me/254707546201" class="btn btn-whatsapp" style="padding: 8px 15px; border-radius: 50px;"><i class="fab fa-whatsapp"></i> Chat</a>
             </div>
         </div>
     </header>
 
-    <div class="hero-minimal">
+    <!-- Mobile Drawer -->
+    <div class="mobile-overlay" id="overlay"></div>
+    <div class="mobile-drawer" id="drawer">
+        <button id="menu-close" style="background:none; border:none; font-size:1.5rem; margin-bottom:30px; cursor:pointer;">&times;</button>
+        <nav style="display:flex; flex-direction:column; gap:20px; font-size:1.1rem; font-weight:500;">
+            <a href="#collection">Collection</a>
+            <a href="#custom">Custom Orders</a>
+            <a href="#about">Our Story</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+
+    <div class="hero-minimal" style="background-image: linear-gradient(rgba(248,235,230,0.8), rgba(248,235,230,0.8)), url('assets/lifestyle_beads.jpg'); background-size: cover; background-position: center;">
         <div class="container">
             <h1>Crafted from our roots.</h1>
-            <p>Discover unique, handmade Kenyan baskets for your home.</p>
+            <p style="font-size: 1.2rem; max-width: 600px; margin: 0 auto 30px;">Handmade beaded table mats designed to elevate your dining and living spaces.</p>
+            <div style="display: flex; gap: 15px; justify-content: center;">
+                <a href="#collection" class="btn" style="background: var(--text-main); color: white;">View Collection</a>
+                <a href="https://wa.me/254707546201" class="btn" style="background: white; border: 1px solid var(--border-color);">Order on WhatsApp</a>
+            </div>
         </div>
     </div>
+
+    <div class="pattern-divider"></div>
 
     <main class="container">
         <!-- Categories Section -->
@@ -73,146 +94,141 @@
             <div class="etsy-grid">
                 <!-- Product 1: Rainbow Spiral -->
                 <div class="etsy-card">
-                    <a href="product.html?id=1">
+                    <a href="product.html?id=1" style="text-decoration: none; color: inherit;">
                         <div class="whatsapp-badge">Popular</div>
                         <div class="card-img-wrapper">
                             <img src="assets/rainbow_spiral.jpg" alt="Rainbow Spiral Beaded Mat">
                         </div>
                         <div class="card-info">
                             <h3>Vibrant Rainbow Spiral Circular Beaded Mat</h3>
-                            <p class="card-price">KES 3,800</p>
+                            <p class="card-price">KES 950</p>
+                            <span class="card-btn">View Details</span>
                         </div>
                     </a>
                 </div>
 
                 <!-- Product 2: Feather Pattern Brown -->
                 <div class="etsy-card">
-                    <a href="product.html?id=2">
+                    <a href="product.html?id=2" style="text-decoration: none; color: inherit;">
                         <div class="card-img-wrapper">
                             <img src="assets/feather_brown.jpg" alt="Feather Pattern Beaded Mat - Brown">
                         </div>
                         <div class="card-info">
                             <h3>Artisan Feather Motif Mat - Earth Tones</h3>
-                            <p class="card-price">KES 4,200</p>
+                            <p class="card-price">KES 1,000</p>
+                            <span class="card-btn">View Details</span>
                         </div>
                     </a>
                 </div>
 
                 <!-- Product 3: Feather Pattern Rainbow -->
                 <div class="etsy-card">
-                    <a href="product.html?id=3">
+                    <a href="product.html?id=3" style="text-decoration: none; color: inherit;">
                         <div class="card-img-wrapper">
                             <img src="assets/feather_rainbow.jpg" alt="Rainbow Feather Beaded Mat">
                         </div>
                         <div class="card-info">
                             <h3>Artisan Rainbow Feather Beaded Wall Decor</h3>
-                            <p class="card-price">KES 4,500</p>
+                            <p class="card-price">KES 1,000</p>
+                            <span class="card-btn">View Details</span>
                         </div>
                     </a>
                 </div>
 
                 <!-- Product 4: Monochrome Spiral -->
                 <div class="etsy-card">
-                    <a href="product.html?id=4">
+                    <a href="product.html?id=4" style="text-decoration: none; color: inherit;">
                         <div class="card-img-wrapper">
                             <img src="assets/white_gold_spiral.jpg" alt="Monochrome Spiral Beaded Mat">
                         </div>
                         <div class="card-info">
                             <h3>Classic Spiral Hand-Beaded Mat (Black & Gold)</h3>
-                            <p class="card-price">KES 3,200</p>
+                            <p class="card-price">KES 900</p>
+                            <span class="card-btn">View Details</span>
                         </div>
                     </a>
                 </div>
 
                 <!-- Product 5: Midnight Black -->
                 <div class="etsy-card">
-                    <a href="product.html?id=5">
+                    <a href="product.html?id=5" style="text-decoration: none; color: inherit;">
                         <div class="whatsapp-badge">Premium</div>
                         <div class="card-img-wrapper">
                             <img src="assets/midnight_black.jpg" alt="Midnight Black Beaded Mat">
                         </div>
                         <div class="card-info">
                             <h3>Midnight Black Hand-Beaded Premium Mat</h3>
-                            <p class="card-price">KES 3,500</p>
+                            <p class="card-price">KES 1,000</p>
+                            <span class="card-btn">View Details</span>
                         </div>
                     </a>
                 </div>
 
                 <!-- Product 6: Ocean Blue Spiral -->
                 <div class="etsy-card">
-                    <a href="product.html?id=6">
+                    <a href="product.html?id=6" style="text-decoration: none; color: inherit;">
                         <div class="card-img-wrapper">
                             <img src="assets/ocean_blue_spiral.jpg" alt="Ocean Blue Spiral Mat">
                         </div>
                         <div class="card-info">
                             <h3>Deep Ocean Blue Spiral Beaded Mat</h3>
-                            <p class="card-price">KES 3,800</p>
+                            <p class="card-price">KES 950</p>
+                            <span class="card-btn">View Details</span>
                         </div>
                     </a>
                 </div>
 
                 <!-- Product 7: Green Woven Tray -->
                 <div class="etsy-card">
-                    <a href="product.html?id=7">
+                    <a href="product.html?id=7" style="text-decoration: none; color: inherit;">
                         <div class="card-img-wrapper">
                             <img src="assets/green_woven_tray.jpg" alt="Green Woven Tray">
                         </div>
                         <div class="card-info">
                             <h3>Large Spiral Woven Tray - Emerald Green</h3>
-                            <p class="card-price">KES 5,500</p>
+                            <p class="card-price">KES 1,200</p>
+                            <span class="card-btn">View Details</span>
                         </div>
                     </a>
                 </div>
 
                 <!-- Product 8: Monochrome Target -->
                 <div class="etsy-card">
-                    <a href="product.html?id=8">
+                    <a href="product.html?id=8" style="text-decoration: none; color: inherit;">
                         <div class="card-img-wrapper">
                             <img src="assets/bw_target_mats.jpg" alt="B&W Target Mats">
                         </div>
                         <div class="card-info">
                             <h3>Minimalist Black & White Target Beaded Set</h3>
-                            <p class="card-price">KES 4,000</p>
+                            <p class="card-price">KES 950</p>
+                            <span class="card-btn">View Details</span>
                         </div>
                     </a>
                 </div>
 
                 <!-- Product 9: Electric Blue Spiral -->
                 <div class="etsy-card">
-                    <a href="product.html?id=9">
+                    <a href="product.html?id=9" style="text-decoration: none; color: inherit;">
                         <div class="card-img-wrapper">
                             <img src="assets/electric_blue_spiral.jpg" alt="Electric Blue Spiral">
                         </div>
                         <div class="card-info">
                             <h3>Intricate Electric Blue & Gold Beaded Spiral</h3>
-                            <p class="card-price">KES 4,200</p>
+                            <p class="card-price">KES 1,100</p>
+                            <span class="card-btn">View Details</span>
                         </div>
                     </a>
                 </div>
 
                 <!-- Product 10: Brown Border Spiral -->
                 <div class="etsy-card">
-                    <a href="product.html?id=10">
+                    <a href="product.html?id=10" style="text-decoration: none; color: inherit;">
                         <div class="card-img-wrapper">
                             <img src="assets/brown_border_spiral.jpg" alt="Brown Border Spiral Mat">
                         </div>
                         <div class="card-info">
                             <h3>Classic Brown Border Beaded Centerpiece</h3>
                             <p class="card-price">KES 3,600</p>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Product 11: Gold Luxury Stack -->
-                <div class="etsy-card">
-                    <a href="product.html?id=11">
-                        <div class="whatsapp-badge">Best Seller</div>
-                        <div class="card-img-wrapper">
-                            <img src="assets/gold_luxury_stack.jpg" alt="Gold Luxury Beaded Set">
-                        </div>
-                        <div class="card-info">
-                            <h3>Luxury Gold & Bronze Stacked Beaded Set</h3>
-                            <p class="card-price">KES 12,500</p>
                         </div>
                     </a>
                 </div>
@@ -242,39 +258,165 @@
                         </div>
                     </a>
                 </div>
+
+                <!-- Product 11: Gold Luxury Stack -->
+                <div class="etsy-card">
+                    <a href="product.html?id=11">
+                        <div class="whatsapp-badge">Best Seller</div>
+                        <div class="card-img-wrapper">
+                            <img src="assets/gold_luxury_stack.jpg" alt="Gold Luxury Beaded Set">
+                        </div>
+                        <div class="card-info">
+                            <h3>Luxury Gold & Bronze Stacked Beaded Set (Full Set)</h3>
+                            <p class="card-price">KES 3,500</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Product 8: Monochrome Target -->
+                <div class="etsy-card">
+                    <a href="product.html?id=8">
+                        <div class="card-img-wrapper">
+                            <img src="assets/bw_target_mats.jpg" alt="B&W Target Mats">
+                        </div>
+                        <div class="card-info">
+                            <h3>Minimalist Black & White Target Beaded Set</h3>
+                            <p class="card-price">KES 950</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Product 5: Midnight Black -->
+                <div class="etsy-card">
+                    <a href="product.html?id=5">
+                        <div class="whatsapp-badge">Premium</div>
+                        <div class="card-img-wrapper">
+                            <img src="assets/midnight_black.jpg" alt="Midnight Black Beaded Mat">
+                        </div>
+                        <div class="card-info">
+                            <h3>Midnight Black Hand-Beaded Premium Mat</h3>
+                            <p class="card-price">KES 1,000</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 40px;">
+                <p style="color: var(--text-muted);">Discover and order from our full collection of 13+ unique designs.</p>
+            </div>
+        </section>
+
+        <div class="pattern-divider"></div>
+
+        <!-- Sets & Custom Orders Section -->
+        <section id="custom" style="padding: 60px 0;">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px;">
+                <div style="background: var(--bg-light); padding: 40px; border-radius: 15px;">
+                    <h3>Perfect as a Set</h3>
+                    <p style="margin: 15px 0;">Elevate your entire table. Get a coordinated set of 4 for just **KES 3,500**.</p>
+                    <a href="https://wa.me/254707546201?text=Hello, I am interested in ordering a set of 4 table mats." class="btn btn-whatsapp">Order a Set</a>
+                </div>
+                <div style="background: #EAF0E9; padding: 40px; border-radius: 15px;">
+                    <h3>Custom Color Requests</h3>
+                    <p style="margin: 15px 0;">Need something specific to match your decor? We take custom color requests to fit your home's unique palette.</p>
+                    <a href="https://wa.me/254707546201?text=Hello, I would like to inquire about a custom color order." class="btn" style="background: var(--primary-color); color: white;">Request Custom Color</a>
+                </div>
             </div>
         </section>
 
         <!-- Why Asili Section (Modernized) -->
-        <section id="about" style="padding: 80px 0; border-top: 1px solid var(--border-color);">
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center;">
+        <section style="padding: 80px 0; border-top: 1px solid var(--border-color);">
+            <div style="text-align: center; margin-bottom: 50px;">
+                <h2 style="font-size: 2.5rem;">Why choose Asili?</h2>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 30px; text-align: center;">
+                <div class="feature-card">
+                    <i class="fas fa-hand-holding-heart" style="font-size: 2rem; color: var(--terracotta); margin-bottom: 15px;"></i>
+                    <h4>Handmade Quality</h4>
+                    <p>Every piece is a unique work of art, hand-beaded with precision.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-palette" style="font-size: 2rem; color: var(--terracotta); margin-bottom: 15px;"></i>
+                    <h4>Unique Designs</h4>
+                    <p>Authentic patterns that blend tradition with modern styling.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt" style="font-size: 2rem; color: var(--terracotta); margin-bottom: 15px;"></i>
+                    <h4>Durable Materials</h4>
+                    <p>Built to last using premium glass beads and reinforced backing.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-map-marker-alt" style="font-size: 2rem; color: var(--terracotta); margin-bottom: 15px;"></i>
+                    <h4>Proudly Kenyan</h4>
+                    <p>Crafted locally in Nairobi, supporting small artisan communities.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" style="padding: 100px 0; background-color: #FDF9F7; margin: 0 -40px; border-top: 1px solid var(--border-color);">
+            <div class="container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center;">
+                <div class="hero-image" style="background-image: url('assets/lifestyle_beads.jpg'); background-size: cover; aspect-ratio: 4/5; border-radius: 20px;"></div>
                 <div>
-                    <h2 style="font-size: 2.5rem; margin-bottom: 20px;">Why choose Asili?</h2>
-                    <ul style="display: grid; gap: 20px;">
-                        <li><strong>Handmade Quality:</strong> Every piece is a unique work of art.</li>
-                        <li><strong>Supporting Local:</strong> Directly empowering Kenyan artisans.</li>
-                        <li><strong>Sustainable:</strong> Natural materials and ethical processes.</li>
-                    </ul>
+                    <h2 style="font-size: 2.5rem; margin-bottom: 30px;">Our Story</h2>
+                    <p style="margin-bottom: 20px; font-size: 1.1rem; line-height: 1.8;">Asili Creations started as a creative side hustle between friends who shared a deep passion for handmade crafts and Kenyan artistry.</p>
+                    <p style="margin-bottom: 20px; font-size: 1.1rem; line-height: 1.8;">What began as a small project to create unique gifts for family has grown into a mission: to bring the authentic beauty of traditional beadwork into modern homes across Kenya.</p>
+                    <p style="font-weight: 600; font-size: 1.1rem;">We blend heritage with contemporary design to create pieces that tell a story on your table.</p>
                 </div>
-                <div class="hero-image" style="background: #F8F8F8; padding: 40px; border-radius: 20px;">
-                    <p style="font-style: italic; font-size: 1.2rem; color: var(--text-muted);">"Asili Creations is our passion project. We believe in the beauty of handmade things and the stories they carry."</p>
-                    <p style="margin-top: 20px; font-weight: 700;">— The Founders</p>
+            </div>
+        </section>
+
+        <section id="contact" style="padding: 100px 0;">
+            <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <h2 style="font-size: 2.5rem; margin-bottom: 20px;">Get in Touch</h2>
+                <p style="margin-bottom: 40px; color: var(--text-muted);">Have questions or want to visit our studio in Nairobi? Reach out directly.</p>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 30px; margin-bottom: 60px;">
+                    <div>
+                        <i class="fab fa-whatsapp" style="font-size: 1.5rem; color: #25D366; margin-bottom: 10px;"></i>
+                        <p><strong>WhatsApp</strong><br>0707 546201</p>
+                    </div>
+                    <div>
+                        <i class="fab fa-instagram" style="font-size: 1.5rem; color: #E1306C; margin-bottom: 10px;"></i>
+                        <p><strong>Instagram</strong><br>@asilicreations</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-map-marker-alt" style="font-size: 1.5rem; color: var(--terracotta); margin-bottom: 10px;"></i>
+                        <p><strong>Location</strong><br>Nairobi, Kenya</p>
+                    </div>
                 </div>
+
+                <form style="display: grid; gap: 20px; text-align: left;">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                        <input type="text" placeholder="Your Name" style="padding: 15px; border: 1px solid var(--border-color); border-radius: 10px;">
+                        <input type="email" placeholder="Your Email" style="padding: 15px; border: 1px solid var(--border-color); border-radius: 10px;">
+                    </div>
+                    <textarea placeholder="Your Message" rows="4" style="padding: 15px; border: 1px solid var(--border-color); border-radius: 10px;"></textarea>
+                    <button type="submit" class="btn" style="background: var(--text-main); color: white; padding: 15px; border-radius: 10px;">Send Message</button>
+                </form>
             </div>
         </section>
     </main>
 
-    <footer style="margin-top: 100px; padding: 60px 0; background: var(--bg-light); border-top: 1px solid var(--border-color);">
+    <footer style="padding: 60px 0; background: var(--bg-light); border-top: 1px solid var(--border-color);">
         <div class="container" style="text-align: center;">
             <div class="logo" style="margin-bottom: 20px;">Asili Creations</div>
             <p style="color: var(--text-muted); margin-bottom: 30px;">Authentic | Cultural | Modern</p>
+            <nav style="display: flex; justify-content: center; gap: 30px; margin-bottom: 40px; font-weight: 500;">
+                <a href="#collection">Collection</a>
+                <a href="#about">Our Story</a>
+                <a href="#contact">Contact</a>
+            </nav>
             <div style="display: flex; justify-content: center; gap: 30px; font-size: 1.5rem; margin-bottom: 40px;">
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.instagram.com/asilicreations"><i class="fab fa-instagram"></i></a>
                 <a href="https://wa.me/254707546201"><i class="fab fa-whatsapp"></i></a>
             </div>
             <p>&copy; 2024 Asili Creations. Made with pride in Kenya.</p>
         </div>
     </footer>
+
+    <button id="back-to-top" class="back-to-top" style="position: fixed; bottom: 30px; right: 30px; display: none; background: var(--text-main); color: white; width: 40px; height: 40px; border-radius: 50%; border: none; cursor: pointer;">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
     <script src="script.js"></script>
 </body>
