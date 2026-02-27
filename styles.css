@@ -421,12 +421,105 @@ header {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-.promo-card.terracotta {
-    background: linear-gradient(135deg, #A85A3F 0%, #7D4230 100%);
+/* Background Slideshow Layers */
+.slide-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    opacity: 0;
+    animation: bg-fade 12s infinite;
 }
 
-.promo-card.sage {
-    background: linear-gradient(135deg, #8A9A8A 0%, #5E6D5E 100%);
+/* Add a dark overlay to make text readable */
+.slide-bg::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Adjust opacity as needed */
+    z-index: 1;
+}
+
+@keyframes bg-fade {
+    0% {
+        opacity: 0;
+        transform: scale(1.05);
+    }
+
+    15% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    33% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    48% {
+        opacity: 0;
+        transform: scale(1.05);
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/* Animation Delays for each slide */
+.slide-1 {
+    animation-delay: 0s;
+}
+
+.slide-2 {
+    animation-delay: 4s;
+}
+
+.slide-3 {
+    animation-delay: 8s;
+}
+
+/* Set Background Images */
+.set-bg-1 {
+    background-image: url('assets/gold_mosaic_set.jpg');
+}
+
+.set-bg-2 {
+    background-image: url('assets/emerald_forest_mat.jpg');
+}
+
+.set-bg-3 {
+    background-image: url('assets/ocean_blue_spiral.jpg');
+}
+
+/* Custom Colors Background Images */
+.custom-bg-1 {
+    background-image: url('assets/tribal_bronze_pattern.jpg');
+}
+
+.custom-bg-2 {
+    background-image: url('assets/royal_purple_spiral.jpg');
+}
+
+.custom-bg-3 {
+    background-image: url('assets/speckled_rainbow.jpg');
+}
+
+/* The text content needs to sit above the images */
+.promo-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .promo-card:hover {
