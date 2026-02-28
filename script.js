@@ -131,10 +131,4 @@ document.addEventListener('DOMContentLoaded', () => {
     if (document.getElementById('product-grid')) {
         renderProducts('product-grid', 'all', false); // Shop all
     }
-
-    // Initial observer call for static sections
-    document.querySelectorAll('section, .hero-content').forEach(el => {
-        el.classList.add('fade-in-target');
-        observer.observe(el);
-    });
 });
