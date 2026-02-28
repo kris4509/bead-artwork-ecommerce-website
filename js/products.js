@@ -182,7 +182,278 @@ const products = {
         dimensions: '35cm Diameter',
         category: 'Minimalist',
         featured: false
+    },
+    '19': {
+        title: 'Authentic Kenyan Beaded Mat #19',
+        price: 'KES 950',
+        image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.30.jpeg',
+        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
+        materials: 'Premium glass beads, durable backing.',
+        dimensions: '35cm Diameter',
+        category: 'Newly Added',
+        featured: false
+    },
+    '20': {
+        title: 'Authentic Kenyan Beaded Mat #20',
+        price: 'KES 950',
+        image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.33.jpeg',
+        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
+        materials: 'Premium glass beads, durable backing.',
+        dimensions: '35cm Diameter',
+        category: 'Newly Added',
+        featured: false
+    },
+    '21': {
+        title: 'Authentic Kenyan Beaded Mat #21',
+        price: 'KES 950',
+        image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.33_1.jpeg',
+        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
+        materials: 'Premium glass beads, durable backing.',
+        dimensions: '35cm Diameter',
+        category: 'Newly Added',
+        featured: false
+    },
+    '22': {
+        title: 'Authentic Kenyan Beaded Mat #22',
+        price: 'KES 950',
+        image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.33_2.jpeg',
+        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
+        materials: 'Premium glass beads, durable backing.',
+        dimensions: '35cm Diameter',
+        category: 'Newly Added',
+        featured: false
+    },
+    '23': {
+        title: 'Authentic Kenyan Beaded Mat #23',
+        price: 'KES 950',
+        image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.34.jpeg',
+        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
+        materials: 'Premium glass beads, durable backing.',
+        dimensions: '35cm Diameter',
+        category: 'Newly Added',
+        featured: false
+    },
+    '24': {
+        title: 'Authentic Kenyan Beaded Mat #24',
+        price: 'KES 950',
+        image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.34_1.jpeg',
+        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
+        materials: 'Premium glass beads, durable backing.',
+        dimensions: '35cm Diameter',
+        category: 'Newly Added',
+        featured: false
+    },
+    '25': {
+        title: 'Authentic Kenyan Beaded Mat #25',
+        price: 'KES 950',
+        image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.34_2.jpeg',
+        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
+        materials: 'Premium glass beads, durable backing.',
+        dimensions: '35cm Diameter',
+        category: 'Newly Added',
+        featured: false
+    },
+    '26': {
+        title: 'Authentic Kenyan Beaded Mat #26',
+        price: 'KES 950',
+        image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.34_3.jpeg',
+        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
+        materials: 'Premium glass beads, durable backing.',
+        dimensions: '35cm Diameter',
+        category: 'Newly Added',
+        featured: false
+    },
+    '27': {
+        title: 'Authentic Kenyan Beaded Mat #27',
+        price: 'KES 950',
+        image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.35.jpeg',
+        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
+        materials: 'Premium glass beads, durable backing.',
+        dimensions: '35cm Diameter',
+        category: 'Newly Added',
+        featured: false
+    },
+    '28': {
+        title: 'Authentic Kenyan Beaded Mat #28',
+        price: 'KES 950',
+        image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.35_1.jpeg',
+        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
+        materials: 'Premium glass beads, durable backing.',
+        dimensions: '35cm Diameter',
+        category: 'Newly Added',
+        featured: false
+    },
+    '29': {
+        title: 'Authentic Kenyan Beaded Mat #29',
+        price: 'KES 950',
+        image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.35_2.jpeg',
+        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
+        materials: 'Premium glass beads, durable backing.',
+        dimensions: '35cm Diameter',
+        category: 'Newly Added',
+        featured: false
+    },
+    '30': {
+        title: 'Authentic Kenyan Beaded Mat #30',
+        price: 'KES 950',
+        image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.36.jpeg',
+        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
+        materials: 'Premium glass beads, durable backing.',
+        dimensions: '35cm Diameter',
+        category: 'Newly Added',
+        featured: false
+    },
+    '31': {
+        title: 'Authentic Kenyan Beaded Mat #31',
+        price: 'KES 950',
+        image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.36_1.jpeg',
+        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
+        materials: 'Premium glass beads, durable backing.',
+        dimensions: '35cm Diameter',
+        category: 'Newly Added',
+        featured: false
+    },
+    '32': {
+        title: 'Authentic Kenyan Beaded Mat #32',
+        price: 'KES 950',
+        image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.36_2.jpeg',
+        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
+        materials: 'Premium glass beads, durable backing.',
+        dimensions: '35cm Diameter',
+        category: 'Newly Added',
+        featured: false
+    },
+    '33': {
+        title: 'Authentic Kenyan Beaded Mat #33',
+        price: 'KES 950',
+        image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.36_3.jpeg',
+        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
+        materials: 'Premium glass beads, durable backing.',
+        dimensions: '35cm Diameter',
+        category: 'Newly Added',
+        featured: false
+    },
+    '34': {
+        title: 'Authentic Kenyan Beaded Mat #34',
+        price: 'KES 950',
+        image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.37.jpeg',
+        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
+        materials: 'Premium glass beads, durable backing.',
+        dimensions: '35cm Diameter',
+        category: 'Newly Added',
+        featured: false
+    },
+    '35': {
+        title: 'Authentic Kenyan Beaded Mat #35',
+        price: 'KES 950',
+        image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.37_1.jpeg',
+        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
+        materials: 'Premium glass beads, durable backing.',
+        dimensions: '35cm Diameter',
+        category: 'Newly Added',
+        featured: false
+    },
+    '36': {
+        title: 'Authentic Kenyan Beaded Mat #36',
+        price: 'KES 950',
+        image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.37_2.jpeg',
+        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
+        materials: 'Premium glass beads, durable backing.',
+        dimensions: '35cm Diameter',
+        category: 'Newly Added',
+        featured: false
+    },
+    '37': {
+        title: 'Authentic Kenyan Beaded Mat #37',
+        price: 'KES 950',
+        image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.37_3.jpeg',
+        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
+        materials: 'Premium glass beads, durable backing.',
+        dimensions: '35cm Diameter',
+        category: 'Newly Added',
+        featured: false
+    },
+    '38': {
+        title: 'Authentic Kenyan Beaded Mat #38',
+        price: 'KES 950',
+        image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.38.jpeg',
+        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
+        materials: 'Premium glass beads, durable backing.',
+        dimensions: '35cm Diameter',
+        category: 'Newly Added',
+        featured: false
+    },
+    '39': {
+        title: 'Authentic Kenyan Beaded Mat #39',
+        price: 'KES 950',
+        image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.38_1.jpeg',
+        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
+        materials: 'Premium glass beads, durable backing.',
+        dimensions: '35cm Diameter',
+        category: 'Newly Added',
+        featured: false
+    },
+    '40': {
+        title: 'Authentic Kenyan Beaded Mat #40',
+        price: 'KES 950',
+        image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.38_2.jpeg',
+        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
+        materials: 'Premium glass beads, durable backing.',
+        dimensions: '35cm Diameter',
+        category: 'Newly Added',
+        featured: false
+    },
+    '41': {
+        title: 'Authentic Kenyan Beaded Mat #41',
+        price: 'KES 950',
+        image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.38_3.jpeg',
+        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
+        materials: 'Premium glass beads, durable backing.',
+        dimensions: '35cm Diameter',
+        category: 'Newly Added',
+        featured: false
+    },
+    '42': {
+        title: 'Authentic Kenyan Beaded Mat #42',
+        price: 'KES 950',
+        image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.39.jpeg',
+        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
+        materials: 'Premium glass beads, durable backing.',
+        dimensions: '35cm Diameter',
+        category: 'Newly Added',
+        featured: false
+    },
+    '43': {
+        title: 'Authentic Kenyan Beaded Mat #43',
+        price: 'KES 950',
+        image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.39_1.jpeg',
+        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
+        materials: 'Premium glass beads, durable backing.',
+        dimensions: '35cm Diameter',
+        category: 'Newly Added',
+        featured: false
+    },
+    '44': {
+        title: 'Authentic Kenyan Beaded Mat #44',
+        price: 'KES 950',
+        image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.39_2.jpeg',
+        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
+        materials: 'Premium glass beads, durable backing.',
+        dimensions: '35cm Diameter',
+        category: 'Newly Added',
+        featured: false
+    },
+    '45': {
+        title: 'Authentic Kenyan Beaded Mat #45',
+        price: 'KES 950',
+        image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.40.jpeg',
+        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
+        materials: 'Premium glass beads, durable backing.',
+        dimensions: '35cm Diameter',
+        category: 'Newly Added',
+        featured: false
     }
+
 };
 
 window.asiliProducts = products;
