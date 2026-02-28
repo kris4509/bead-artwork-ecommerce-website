@@ -125,9 +125,13 @@ document.addEventListener('DOMContentLoaded', () => {
     initBackToTop();
     initProductDetail();
 
-    // Render Grids
-    renderProducts('featured-grid', 'all', true); // Featured only
-    renderProducts('product-grid', 'all', false); // Shop all
+    // Render Grids only if they exist on the current page
+    if (document.getElementById('featured-grid')) {
+        renderProducts('featured-grid', 'all', true); // Featured only
+    }
+    if (document.getElementById('product-grid')) {
+        renderProducts('product-grid', 'all', false); // Shop all
+    }
 
     // Initial observer call for static sections
     document.querySelectorAll('section, .hero-content').forEach(el => {
