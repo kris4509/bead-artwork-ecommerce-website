@@ -50,7 +50,7 @@ function renderProducts(containerId, filter = 'all', onlyFeatured = false) {
         if (filter !== 'all' && p.category !== filter) return;
 
         const card = document.createElement('div');
-        card.className = 'etsy-card fade-in-target';
+        card.className = 'etsy-card';
         card.innerHTML = `
             <a href="product.html?id=${id}" style="text-decoration: none; color: inherit;">
                 ${p.badge ? `<div class="whatsapp-badge">${p.badge}</div>` : ''}
@@ -65,7 +65,6 @@ function renderProducts(containerId, filter = 'all', onlyFeatured = false) {
             </a>
         `;
         grid.appendChild(card);
-        observer.observe(card);
     });
 }
 
