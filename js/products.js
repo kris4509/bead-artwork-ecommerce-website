@@ -224,13 +224,13 @@ const products = {
         featured: false
     },
     '23': {
-        title: 'Authentic Kenyan Beaded Mat #23',
-        price: 'KES 950',
+        title: 'Green Feather Beaded Mirror/Clock Frame',
+        price: 'From KES 1,800',
         image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.34.jpeg',
-        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
-        materials: 'Premium glass beads, durable backing.',
-        dimensions: '35cm Diameter',
-        category: 'Newly Added',
+        description: 'A stunning handcrafted beaded frame featuring elegant green and yellow feather patterns. Perfect as a mirror frame or clock frame. Available sizes: 16" (KES 1,800) | 18" (KES 2,000) | 20" (KES 2,200) | 22" (KES 2,400) | 24" (KES 2,600).',
+        materials: 'Premium glass beads, leather-wrapped border, durable backing.',
+        dimensions: '16" to 24" available',
+        category: 'Frames',
         featured: false
     },
     '24': {
@@ -254,13 +254,13 @@ const products = {
         featured: false
     },
     '26': {
-        title: 'Authentic Kenyan Beaded Mat #26',
-        price: 'KES 950',
+        title: 'Rainbow Spiral Beaded Mirror Frame',
+        price: 'From KES 1,800',
         image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.34_3.jpeg',
-        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
-        materials: 'Premium glass beads, durable backing.',
-        dimensions: '35cm Diameter',
-        category: 'Newly Added',
+        description: 'A vibrant rainbow-colored beaded mirror frame with bold spiral color bands in red, blue, orange, yellow, and green. A true statement piece for any room. Available sizes: 16" (KES 1,800) | 18" (KES 2,000) | 20" (KES 2,200) | 22" (KES 2,400) | 24" (KES 2,600).',
+        materials: 'Premium glass beads, leather-wrapped border, mirror glass insert.',
+        dimensions: '16" to 24" available',
+        category: 'Frames',
         featured: false
     },
     '27': {
@@ -274,13 +274,13 @@ const products = {
         featured: false
     },
     '28': {
-        title: 'Authentic Kenyan Beaded Mat #28',
-        price: 'KES 950',
+        title: 'Sunset Feather Beaded Mirror/Clock Frame',
+        price: 'From KES 1,800',
         image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.35_1.jpeg',
-        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
-        materials: 'Premium glass beads, durable backing.',
-        dimensions: '35cm Diameter',
-        category: 'Newly Added',
+        description: 'Warm orange, red, and gold feather beadwork on a handcrafted circular frame. Ideal as a decorative mirror or clock frame. Available sizes: 16" (KES 1,800) | 18" (KES 2,000) | 20" (KES 2,200) | 22" (KES 2,400) | 24" (KES 2,600).',
+        materials: 'Premium glass beads, leather-wrapped border, durable backing.',
+        dimensions: '16" to 24" available',
+        category: 'Frames',
         featured: false
     },
     '29': {
@@ -334,13 +334,13 @@ const products = {
         featured: false
     },
     '34': {
-        title: 'Authentic Kenyan Beaded Mat #34',
-        price: 'KES 950',
+        title: 'Assorted Beaded Frames Collection (Set of 3)',
+        price: 'From KES 1,800 each',
         image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.37.jpeg',
-        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
-        materials: 'Premium glass beads, durable backing.',
-        dimensions: '35cm Diameter',
-        category: 'Newly Added',
+        description: 'A curated trio of handcrafted beaded frames featuring colorful feather, golden autumn, and earth-tone designs. Each can serve as a mirror or clock frame. Available sizes: 16" (KES 1,800) | 18" (KES 2,000) | 20" (KES 2,200) | 22" (KES 2,400) | 24" (KES 2,600).',
+        materials: 'Premium glass beads, leather-wrapped border, durable backing.',
+        dimensions: '16" to 24" available',
+        category: 'Frames',
         featured: false
     },
     '35': {
@@ -364,13 +364,13 @@ const products = {
         featured: false
     },
     '37': {
-        title: 'Authentic Kenyan Beaded Mat #37',
-        price: 'KES 950',
+        title: 'Kenyan Flag Beaded Wall Clock',
+        price: 'From KES 1,800',
         image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.37_3.jpeg',
-        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
-        materials: 'Premium glass beads, durable backing.',
-        dimensions: '35cm Diameter',
-        category: 'Newly Added',
+        description: 'A magnificent wall clock adorned with green, red, and white feather beadwork inspired by Kenyan heritage. Fully functional quartz clock movement. Available sizes: 16" (KES 1,800) | 18" (KES 2,000) | 20" (KES 2,200) | 22" (KES 2,400) | 24" (KES 2,600).',
+        materials: 'Premium glass beads, leather-wrapped border, quartz clock mechanism.',
+        dimensions: '16" to 24" available',
+        category: 'Frames',
         featured: false
     },
     '38': {
@@ -384,33 +384,33 @@ const products = {
         featured: false
     },
     '39': {
-        title: 'Authentic Kenyan Beaded Mat #39',
-        price: 'KES 950',
+        title: 'Ivory and Gold Beaded Mirror/Clock Frame',
+        price: 'From KES 1,800',
         image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.38_1.jpeg',
-        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
-        materials: 'Premium glass beads, durable backing.',
-        dimensions: '35cm Diameter',
-        category: 'Newly Added',
+        description: 'A minimalist yet elegant frame in white and gold striped beadwork. Perfect for modern interiors as a mirror or clock frame. Available sizes: 16" (KES 1,800) | 18" (KES 2,000) | 20" (KES 2,200) | 22" (KES 2,400) | 24" (KES 2,600).',
+        materials: 'Premium glass beads, leather-wrapped border, durable backing.',
+        dimensions: '16" to 24" available',
+        category: 'Frames',
         featured: false
     },
     '40': {
-        title: 'Authentic Kenyan Beaded Mat #40',
-        price: 'KES 950',
+        title: 'Gold Mosaic Beaded Mirror Frame',
+        price: 'From KES 1,800',
         image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.38_2.jpeg',
-        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
-        materials: 'Premium glass beads, durable backing.',
-        dimensions: '35cm Diameter',
-        category: 'Newly Added',
+        description: 'A luxurious large mirror frame with intricate gold and white mosaic beadwork. A premium centerpiece for living rooms and entryways. Available sizes: 16" (KES 1,800) | 18" (KES 2,000) | 20" (KES 2,200) | 22" (KES 2,400) | 24" (KES 2,600).',
+        materials: 'Premium glass beads, leather-wrapped border, mirror glass insert.',
+        dimensions: '16" to 24" available',
+        category: 'Frames',
         featured: false
     },
     '41': {
-        title: 'Authentic Kenyan Beaded Mat #41',
-        price: 'KES 950',
+        title: 'Bronze Feather Beaded Mirror Frames',
+        price: 'From KES 1,800',
         image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.38_3.jpeg',
-        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
-        materials: 'Premium glass beads, durable backing.',
-        dimensions: '35cm Diameter',
-        category: 'Newly Added',
+        description: 'Elegant white and bronze feather-patterned beaded mirror frames, available in multiple sizes. A timeless decorative piece. Available sizes: 16" (KES 1,800) | 18" (KES 2,000) | 20" (KES 2,200) | 22" (KES 2,400) | 24" (KES 2,600).',
+        materials: 'Premium glass beads, leather-wrapped border, mirror glass insert.',
+        dimensions: '16" to 24" available',
+        category: 'Frames',
         featured: false
     },
     '42': {
@@ -434,13 +434,13 @@ const products = {
         featured: false
     },
     '44': {
-        title: 'Authentic Kenyan Beaded Mat #44',
-        price: 'KES 950',
+        title: 'Rainbow Feather Beaded Wall Clock',
+        price: 'From KES 1,800',
         image: 'assets/WhatsApp_Image_2026-02-28_at_19.46.39_2.jpeg',
-        description: 'A beautiful new addition to our collection, featuring intricate handcrafted beadwork and vibrant colors designed to elevate your dining space.',
-        materials: 'Premium glass beads, durable backing.',
-        dimensions: '35cm Diameter',
-        category: 'Newly Added',
+        description: 'A stunning handcrafted wall clock with vibrant multicolored feather beadwork in every color of the rainbow. A show-stopping functional art piece. Available sizes: 16" (KES 1,800) | 18" (KES 2,000) | 20" (KES 2,200) | 22" (KES 2,400) | 24" (KES 2,600).',
+        materials: 'Premium glass beads, leather-wrapped border, quartz clock mechanism.',
+        dimensions: '16" to 24" available',
+        category: 'Frames',
         featured: false
     },
     '45': {
